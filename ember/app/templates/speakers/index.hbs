@@ -1,0 +1,9 @@
+<ul>
+{{#each}}
+  <li>
+    {{~#link-to 'speakers.show' this}}
+      {{name}} ({{presentations.length}})
+    {{~/link-to}}
+  </li>
+{{/each}}
+</ul>
